@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url("../education.avif");
+
+}
+html{
+    scroll-behavior: smooth;
+}
+#head{
+
+    text-align: center;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+#learn{
+    color: red;
+    display: flex;
+    margin-left: 10px;
+}
+#para{
+    display: flex; 
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    color: yellow;
+    font-size: 20px;
+    
+}
+.container{
+    box-shadow: 10px 10px 8px #888888;
+    box-shadow: 10px 10px 8px 10px #888888;
+    height: 500px;
+    margin: 10px 90px;
+    background-image: linear-gradient(to right,rgb(91, 91, 158) , white);;
+   
+    
+}
+#logo{
+height: 40px;
+width: 60px;
+margin-top: 10px;
+margin-left: 5px;
+border: 1px solid white;
+border-radius: 40px;
+
+
+}
+.straight{
+    display: flex;
+    background-color: rgb(104, 87, 87);
+}
+.straight ul{
+    margin-top: 10px;
+    display: flex;
+    list-style: none;
+   font-size: 30px;    
+}
+.straight ul li  a {
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+}
+.listitem{
+    background-color:rgba(26, 36, 173, 0.603);
+    border: 1px solid white;
+    border-radius: 40px;
+    margin: 10px;
+    
+}
+.straight ul li  a:hover{
+    background-color: pink;
+    color: red;
+}
+.info{
+    margin-left: 40px;
+}
+#para2{
+    color: black;
+    font-size:50px ;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+#span2{
+    font-size: 50px;
+    color:navy;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+#para3{
+    font-size: 40px;
+    color: black;
+    word-spacing: 10px;
+}
+#online {
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(10px 10px 10px rgb(110, 124, 110));
+   position: relative;
+   border: 1px solid white;
+   border-radius: 80px;
+   height: 200px;
+   width: 400px;
+    float: right;
+ }
+#para4{
+
+    font-family: 'Roboto Slab', serif;
+    font-style: italic;
+    font-weight: bold;
+}
+#Apply{
+
+    margin-top: 20px;
+    font-size: 25px;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 5px;
+   background-color: lightblue
+}
+#Apply:hover{
+    background-color: purple;
+    color: black;
+}
+#Free{
+
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 25px;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 5px;
+    background-color: antiquewhite;
+}
+#Free:hover{
+    background-color: purple;
+    color: black;
+}
+#para5{
+
+    font-family: 'Roboto Slab', serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+#span3{
+    color: red;
+}
+#span4{
+    color: red;
+}
+
+.row {
+    display: flex;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  
+  #java{
+       height: 200px;
+  }
+  #python{
+    height: 200px;
+}
+#cpp{
+    height: 200px;
+}
+#para6{
+    font-family: 'Roboto Slab', serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    
+}
+.about{
+    margin-top: 20px;
+    color:powderblue;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+#foot{
+    text-align: center;
+    background-color:rgb(214, 102, 37) ;
+    margin-top: 30px;
+    filter: drop-shadow(20px 20px 30px red);
+    
+
+}
